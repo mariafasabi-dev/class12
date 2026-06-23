@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    padding:30px;
+    text-align:center;
+}
+
+nav{
+    background-color:#529e07;   
+    padding:25px;
+    display:inline-block;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+}
+
+li{
+    margin:0 20px;
+}
+
+a{
+    color:#6666cc;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+a:hover{
+    color:#0000ff;
+}

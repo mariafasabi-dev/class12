@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Estilos para el cuerpo de la pagina*/
+body{
+    font-family: Arial,sans-serif;
+    background-color: #fff;
+    padding: 20px;
+}
+/*Contenedor principal del menu (etiquta NAV)*/
+nav{
+    background-color: #00a8cc;
+    padding: 8px;
+    border: 3px solido #007a99;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+/*Estructura de la lista interna*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/*Elementos de la lista ordenadas horizontalmente*/
+li{
+    border-right:2px solid #007a99;
+}
+/*Estilos para los enlaces (botones del nemu)*/
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    background-color: #0099bc;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+a:hover{
+    background-color: #007a99;
+}
